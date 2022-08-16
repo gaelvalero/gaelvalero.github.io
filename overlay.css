@@ -8763,3 +8763,17 @@
 .stripe-displays-class-color .color-stripe3-wrapper>.color-stripe3 {
     background: var(--class-color);
 }
+
+.overlay>.standings>.driver-wrapper>.driver>.position-wrapper {
+    background: none;
+}
+
+.overlay>.standings>.header-wrapper{
+    background: none;
+    border: none;
+    border-bottom: 3px var(--class-color) solid;
+}
+
+.overlay>.standings>.header-wrapper>.header {
+    text-shadow: 1px 1px 1px var(--class-color), -1px 1px 1px var(--class-color), -1px -1px 1px var(--class-color), 1px -1px 1px var(--class-color);
+}
