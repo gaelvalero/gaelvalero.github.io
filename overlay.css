@@ -611,12 +611,13 @@
 .overlay>.standings>.header-wrapper {
     position: absolute;
     left: 20px;
-    background: var(--panel-background-color);
-    border: 2px solid var(--panel-surface-background-color);
     background-clip: padding-box;
     overflow: hidden;
     transform: translateY(var(--offset-y));
     transition: transform 0.2s linear, opacity 0.2s ease-out 0.3s;
+    background: none;
+    border: none;
+    border-bottom: 3px var(--class-color) solid
 }
 
 .overlay>.standings.grouped-header-class-color>.header-wrapper {
@@ -634,7 +635,7 @@
     padding: 1px 30px 1px 10px;
     min-width: 200px;
     letter-spacing: 1px;
-    text-shadow: var(--super-fat-text-shadow);
+    text-shadow: 1px 1px 1px var(--class-color), -1px 1px 1px var(--class-color), -1px -1px 1px var(--class-color), 1px -1px 1px var(--class-color);
 }
 
 .overlay>.standings>.header-spacing {
@@ -700,6 +701,7 @@
 .overlay>.standings>.driver-wrapper>.driver>.position-wrapper {
     transition: transform 0.2s ease-in-out 0.1s, opacity 0.2s ease-in-out 0.1s;
     opacity: 0;
+    background: none;
 }
 
 .overlay>.standings>.driver-wrapper>.driver>.position-wrapper>.position {
