@@ -743,6 +743,7 @@
     vertical-align: middle;
     letter-spacing: 1px;
     transform-origin: left;
+    transform:scale(1);
 }
 
 .overlay>.standings>.driver-wrapper>.driver>.container>.data-wrapper {
